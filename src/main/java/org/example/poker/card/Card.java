@@ -9,6 +9,10 @@ public class Card {
         this.suit = suit;
     }
 
+    public Integer getScore() {
+        return this.value.score;
+    }
+
     @Override
     public String toString() {
         return "[" + this.value.toString() + this.suit.toString() + "]";
